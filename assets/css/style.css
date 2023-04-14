@@ -134,3 +134,16 @@ section .overlay .closebtn {
   color: rgb(1, 1, 152);
   margin-right: 10px;
 }
+
+/* event */
+.event h5 {
+  margin-left: 5px;
+  color: #818181;
+  transition: 0.2s ease;
+}
+.event h5:hover {
+  color: black;
+  margin-left: 20px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
