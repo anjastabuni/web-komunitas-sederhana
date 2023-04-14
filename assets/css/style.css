@@ -147,3 +147,8 @@ section .overlay .closebtn {
   transition: 0.2s ease;
   cursor: pointer;
 }
+@media screen and (max-width: 500px) {
+  section {
+    width: 100%;
+  }
+}
