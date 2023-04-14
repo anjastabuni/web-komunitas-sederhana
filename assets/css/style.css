@@ -22,6 +22,9 @@ span {
   margin-bottom: 10px;
   bottom: 10px;
 }
+.nav-judul span:hover {
+  color: #fffefe;
+}
 section .overlay {
   height: 0%;
   width: 100%;
@@ -72,6 +75,9 @@ section .overlay .closebtn {
   }
 }
 #myInput {
+  background-image: url("/assets/images/search.png");
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
   box-sizing: border-box;
   width: 100%;
   font-size: 16px;
@@ -83,6 +89,16 @@ section .overlay .closebtn {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+#myUL li {
+  transition: 0.2s ease;
+}
+#myUL li:hover {
+  margin-left: 0px;
+}
+#myUL li:hover:not(.title) {
+  margin-left: 15px;
+  transition: 0.2s ease;
 }
 #myUL li a {
   display: block;
@@ -101,4 +117,20 @@ section .overlay .closebtn {
 }
 #myUL li a:hover:not(.judul) {
   background-color: #eee;
+}
+
+/* about */
+.about img {
+  width: 400px;
+  float: left;
+  margin-right: 5px;
+}
+.clearfix {
+  clear: both;
+}
+.about a {
+  font-size: 35px;
+  text-decoration: none;
+  color: rgb(1, 1, 152);
+  margin-right: 10px;
 }
