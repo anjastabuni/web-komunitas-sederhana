@@ -121,7 +121,7 @@ section .overlay .closebtn {
 
 /* about */
 .about img {
-  width: 400px;
+  width: 50%;
   float: left;
   margin-right: 5px;
 }
@@ -151,4 +151,6 @@ section .overlay .closebtn {
   section {
     width: 100%;
   }
+  .about img{
+    width: 100%;
 }
